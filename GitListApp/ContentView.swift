@@ -1,21 +1,11 @@
-//
-//  ContentView.swift
-//  GitListApp
-//
-//  Created by Александр Акимов on 03.12.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.modelContext) private var context
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            RepositoryListView(context: context)
         }
-        .padding()
     }
 }
 

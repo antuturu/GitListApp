@@ -6,11 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2005EEEA2D022BFC006CA719 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2005EEE92D022BFC006CA719 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2005EEF32D022C95006CA719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20A6018F2CFF3F1200230226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20A601962CFF3F1200230226;
+			remoteInfo = GitListApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2005EEEF2D022C95006CA719 /* GitListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A601972CFF3F1200230226 /* GitListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		2005EEF02D022C95006CA719 /* GitListAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GitListAppTests;
+			sourceTree = "<group>";
+		};
 		20A601992CFF3F1200230226 /* GitListApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GitListApp;
@@ -19,10 +39,18 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2005EEEC2D022C95006CA719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20A601942CFF3F1200230226 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2005EEEA2D022BFC006CA719 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				20A601992CFF3F1200230226 /* GitListApp */,
+				2005EEF02D022C95006CA719 /* GitListAppTests */,
 				20A601982CFF3F1200230226 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				20A601972CFF3F1200230226 /* GitListApp.app */,
+				2005EEEF2D022C95006CA719 /* GitListAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +78,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2005EEEE2D022C95006CA719 /* GitListAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2005EEF52D022C95006CA719 /* Build configuration list for PBXNativeTarget "GitListAppTests" */;
+			buildPhases = (
+				2005EEEB2D022C95006CA719 /* Sources */,
+				2005EEEC2D022C95006CA719 /* Frameworks */,
+				2005EEED2D022C95006CA719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2005EEF42D022C95006CA719 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2005EEF02D022C95006CA719 /* GitListAppTests */,
+			);
+			name = GitListAppTests;
+			packageProductDependencies = (
+			);
+			productName = GitListAppTests;
+			productReference = 2005EEEF2D022C95006CA719 /* GitListAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		20A601962CFF3F1200230226 /* GitListApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20A601A52CFF3F1300230226 /* Build configuration list for PBXNativeTarget "GitListApp" */;
@@ -65,6 +118,7 @@
 			);
 			name = GitListApp;
 			packageProductDependencies = (
+				2005EEE92D022BFC006CA719 /* Kingfisher */,
 			);
 			productName = GitListApp;
 			productReference = 20A601972CFF3F1200230226 /* GitListApp.app */;
@@ -80,6 +134,10 @@
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
+					2005EEEE2D022C95006CA719 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 20A601962CFF3F1200230226;
+					};
 					20A601962CFF3F1200230226 = {
 						CreatedOnToolsVersion = 16.1;
 					};
@@ -94,17 +152,28 @@
 			);
 			mainGroup = 20A6018E2CFF3F1200230226;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2005EEE82D022BFC006CA719 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 20A601982CFF3F1200230226 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				20A601962CFF3F1200230226 /* GitListApp */,
+				2005EEEE2D022C95006CA719 /* GitListAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2005EEED2D022C95006CA719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20A601952CFF3F1200230226 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +184,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2005EEEB2D022C95006CA719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		20A601932CFF3F1200230226 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +200,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2005EEF42D022C95006CA719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20A601962CFF3F1200230226 /* GitListApp */;
+			targetProxy = 2005EEF32D022C95006CA719 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2005EEF62D022C95006CA719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.antutu.GitListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitListApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitListApp";
+			};
+			name = Debug;
+		};
+		2005EEF72D022C95006CA719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.antutu.GitListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitListApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GitListApp";
+			};
+			name = Release;
+		};
 		20A601A32CFF3F1300230226 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -257,8 +375,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -266,9 +385,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.antutu.GitListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -285,8 +408,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,15 +418,28 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.antutu.GitListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2005EEF52D022C95006CA719 /* Build configuration list for PBXNativeTarget "GitListAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2005EEF62D022C95006CA719 /* Debug */,
+				2005EEF72D022C95006CA719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		20A601922CFF3F1200230226 /* Build configuration list for PBXProject "GitListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -322,6 +459,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2005EEE82D022BFC006CA719 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2005EEE92D022BFC006CA719 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2005EEE82D022BFC006CA719 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20A6018F2CFF3F1200230226 /* Project object */;
 }
